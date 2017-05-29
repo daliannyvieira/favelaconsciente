@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="757 1281 72.423 72.422">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #ffcc29;
+      }
+    </style>
+  </defs>
+  <g id="Através_da_Música_Assets-09" data-name="Através da Música_Assets-09" transform="translate(757 1281)">
+    <g id="Group_21" data-name="Group 21" transform="translate(0 0)">
+      <g id="Group_20" data-name="Group 20">
+        <path id="Path_23" data-name="Path 23" class="cls-1" d="M36.511,73.222A36.211,36.211,0,1,1,72.722,37.011,36.222,36.222,0,0,1,36.511,73.222Z" transform="translate(-0.3 -0.8)"/>
+      </g>
+      <path id="Path_24" data-name="Path 24" class="cls-2" d="M21.06,49.788h8.029V29.8H34.66l.655-6.718H29.089V19.312c0-1.639.328-2.13,1.8-2.13h4.26V10.3H29.58c-5.9,0-8.684,2.622-8.684,7.7v5.407H16.8v6.718h4.1V49.788Z" transform="translate(10.235 5.266)"/>
+    </g>
+  </g>
+</svg>
