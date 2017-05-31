@@ -1,0 +1,39 @@
+body{
+
+	font-family:'Roboto', sans-serif; 
+	font-size: 0.94em;
+	color: #00416d;
+	font-style: normal;
+	text-align: left;
+	line-height: 0.8em;
+	letter-spacing: 0em;
+}
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+li{
+	margin: 30px;
+	display: flex;
+}
+.img01{
+	width:50%; 
+	height:350px;
+	position: relative;
+	left: 350px;
+}
+.img02{
+	width:100%; 
+	height:50%;
+	
+
+}
