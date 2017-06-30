@@ -238,11 +238,30 @@ li{
 	top: 10px;
 	left: 50px;
 }
-@media ( max-width: 1440px) {
-	
+@media ( min-width: 320px) {
+	.img01{
+		margin-left: 48%;
 	}
 
-}
+	.img02{
+		margin-left: -80%;
+		width: 310%;
+	}
+
+	.conteiner-sobre{
+		margin-left: -25%;
+		width: 83%;
+		height: 90%;
+		margin-top: -110%;
+	}
+	.text-sobre{
+		font-size: 2.0em;
+		
+
+	}
+	nav{
+		margin-left: -15%;
+	}
 
 	
 
