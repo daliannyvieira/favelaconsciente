@@ -8,7 +8,13 @@ body{
 	text-align: center;
 	line-height: 0.8em;
 	letter-spacing: 0em;*/
-	
+}
+
+#Home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
 nav{
@@ -16,18 +22,18 @@ nav{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	left: 35%;
+	top: 4%;
 	z-index: 4;
 
 }
+
 ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
-
-
 }
+
 li{
 	margin: 3px;
 	display: flex;
@@ -42,16 +48,15 @@ li{
 }
 
 .img01{
-	width:58.35%; 
-	height:350px;
-	margin-left: 350px;
+	width:58.35%;
 	margin-top: 93px;
-
 }
+
 .img02{
 	width:100%; 
 	height:50%;
 }
+
 .conteiner-sobre{
 	display: flex;
 	justify-content: center;
@@ -75,20 +80,20 @@ li{
 	position: relative;
 	left: 10px;
 	font-size: 1em;
-
-	
 }
+
 .text-sobre-h2{
 	position: relative;
 	left: -132px;
 	color: #95989a;
 }
+
 .img3{
 	width:28.18%; 
 	height:30%;
-	margin: 20px;
-	
+	margin: 20px;	
 }
+
 .img2{
 	width:28.18%; 
 	height: 240px;
@@ -225,6 +230,7 @@ li{
 	color: #fff;
 	top: 25px;
 }
+
 .footer p{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.0em;
@@ -238,7 +244,9 @@ li{
 	top: 10px;
 	left: 50px;
 }
-@media ( min-width: 320px) {
+
+/*@media (max-width: 420px) {
+
 	.img01{
 		margin-left: 48%;
 	}
@@ -254,17 +262,13 @@ li{
 		height: 90%;
 		margin-top: -110%;
 	}
+
 	.text-sobre{
 		font-size: 2.0em;
-		
-
 	}
+
 	nav{
 		margin-left: -15%;
 	}
-
-	
-
-	
-	
-
+}
+*/
