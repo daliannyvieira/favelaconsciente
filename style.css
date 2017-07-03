@@ -47,31 +47,42 @@ li{
 
 }
 
-.img01{
+.imagem-header{
 	width:58.35%;
 	margin-top: 93px;
 }
 
-.img02{
+.img-crianças-main{
 	width:100%; 
 	height:50%;
 }
+#sobre{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background:url(Assets/02.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% ;
+	height: 950px;
 
-.conteiner-sobre{
+	
+}
+
+
+.caixa-sobre{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	position: absolute;
 	background-color: #fff;
-	top: 98%;
-	left: 67%;
-	width: 31%;
-	height:60%;
-	border-radius: 25px;
-	z-index: 2;
+	width: 30%;
+	height: 45%;
+	margin-top: -10%;
+	margin-right: 3%;
+	border-radius: 20px;
+
 }
-.text-sobre{
+.sobre-descrição{
 	width: 340px;
 	color: #95989a;
 	font-style: normal;
@@ -82,24 +93,24 @@ li{
 	font-size: 1em;
 }
 
-.text-sobre-h2{
+.sobre-titulo{
 	position: relative;
 	left: -132px;
 	color: #95989a;
 }
 
-.img3{
+.ação-imagem-colonia-de-ferias{
 	width:28.18%; 
 	height:30%;
 	margin: 20px;	
 }
 
-.img2{
+.ação-imagem-oficina-verde{
 	width:28.18%; 
 	height: 240px;
 	margin: 20px;
 }
-.imagens{
+.ações-imagens{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -108,7 +119,13 @@ li{
 	margin-top: 175px;
 
 }
-.oficina{
+.ação-imagem-reciclagem{
+	width:28.18%; 
+	height: 240px;
+	margin: 20px;
+}
+
+.descrição-oficina-de-reciclagem{
 	margin: 35px;
 	display: flex;
 	flex-direction: row;
@@ -127,7 +144,7 @@ li{
 	line-height: 1.34em;
 	letter-spacing: 0em;
 }
-.oficina1{
+.descrição-oficina-verde{
 	margin:0px;
 	display: flex;
 	flex-direction: row;
@@ -146,7 +163,7 @@ li{
 	line-height: 1.34em;
 	letter-spacing: 0em;
 }
-.oficina2{
+.descrição-colonia-de-ferias{
 	margin: 0px;
 	display: flex;
 	flex-direction: row;
@@ -165,73 +182,93 @@ li{
 	line-height: 1.34em;
 	letter-spacing: 0em;
 }
-.ações{
+.titulo-ação{
 	
 	margin-left: 80px;
 	color: #95989a;
 	margin-top: 40px;
 }
-.img4{
+.img-footer{
 	width:100%; 
 	height:50%;	
 
 }
-.footer{
+#contatos{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
-	flex-direction: column;
-	flex-wrap: wrap;
-	position: absolute;
-	background-color: #363636;
-	top: 350%;
-	left: 67%;
-	width: 28.84%;
-	height:50%;
-	border-radius: 25px;
-	z-index: 2;	
-	opacity:0.70;
+	background:url(Assets/04.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% ;
+	height: 950px;
+
 }
-.footer .imagem1{
+.caixa-contato{
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction:row;
+	flex-wrap: wrap;
+	background-color: #363636;
+	border-radius: 25px;
+	width: 30%;
+	height: 30%;
+	opacity:0.70;
+	color:#fff;
+	
+}
+footer div img{
+	width: 20%;
+	height:20%;
+	margin-left: 30px;
+}
+
+footer div p{
+	position: relative;
+	left: -50%;
+	margin-left: 60%;
+	font-size: 1.30em;
+	
+	
+}
+/* .caixa-contato .logo-facebook{
 	display: flex;
 	justify-content:center;
 	align-items: center;
-	/*margin-top: 120px;*/
 	position: relative;
 	width: 50%;
 	left: 40px;
 	top:10px;
 }
-.footer .imagem1-2{
+.caixa-contato .logo-youtube{
 	display: flex;
 	justify-content:center;
 	align-items: center;
-	/*margin-top: 120px;*/
 	position: relative;
 	width: 50%;
 	left:90%;
 	top:-63px;
 }
-.footer .imagem1-3{
+.caixa-contato .logo-instagram{
 	display: flex;
 	justify-content:center;
 	align-items: center;
-	/*margin-top: 120px;*/
+
 	position: relative;
 	width: 50%;
 	left:40px;
 	top: 58px;
-}
+}*/
 
 
-.footer h1{
+./*caixa-contato .contato-titulo{
 	position: relative;
 	left: 80px;
 	color: #fff;
 	top: 25px;
 }
 
-.footer p{
+.caixa-contato .contato-descrição{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.0em;
 	color: #ffffff;
@@ -244,7 +281,7 @@ li{
 	top: 10px;
 	left: 50px;
 }
-
+*/
 /*@media (max-width: 420px) {
 
 	.img01{
