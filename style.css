@@ -216,7 +216,9 @@ li{
 	opacity:0.70;
 	color:#fff;
 	
+	
 }
+
 footer div img{
 	width: 20%;
 	height:20%;
@@ -224,12 +226,14 @@ footer div img{
 }
 
 footer div p{
+	width: 30%;
 	position: relative;
-	left: -50%;
-	margin-left: 60%;
+	left: -30%;
+	margin-left: 50%;
 	font-size: 1.30em;
-	
-	
+}
+footer div h1{
+	margin-left: 30%;
 }
 /* .caixa-contato .logo-facebook{
 	display: flex;
