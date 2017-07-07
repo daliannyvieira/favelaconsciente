@@ -77,26 +77,30 @@ li{
 	background-color: #fff;
 	width: 30%;
 	height: 45%;
-	margin-top: -10%;
+	margin-top: -20%;
 	margin-right: 3%;
 	border-radius: 20px;
 
 }
 .sobre-descrição{
-	width: 340px;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	width: 330px;
 	color: #95989a;
 	font-style: normal;
 	text-align: left;
 	line-height: 1.1em;
-	position: relative;
-	left: 10px;
-	font-size: 1em;
+	
+
+	
 }
 
 .sobre-titulo{
-	position: relative;
-	left: -132px;
+	display: flex;
+	text-align: left;
 	color: #95989a;
+	
 }
 
 .ação-imagem-colonia-de-ferias{
@@ -129,18 +133,13 @@ li{
 	margin: 35px;
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	align-items: left;
 	flex-wrap: wrap;
 	width: 20%; 
-	position: relative;
-	left: -199px;
-	top: -23px;
 	color: #95989a;
 	font-family:'Source Sans Pro', sans-serif;
 	font-size: 1.56em;
-	color: #95989a;
 	font-style: normal;
-	text-align:left;;
 	line-height: 1.34em;
 	letter-spacing: 0em;
 }
@@ -151,7 +150,6 @@ li{
 	align-items: center;
 	flex-wrap: wrap;
 	width: 20%; 
-	position: relative;
 	left: -88px;
 	top: -23px;
 	color: #95989a;
@@ -170,9 +168,6 @@ li{
 	align-items: center;
 	flex-wrap: wrap;
 	width: 20%; 
-	position: relative;
-	left: 57px;
-	top: -23px;
 	color: #95989a;
 	font-family:'Source Sans Pro', sans-serif;
 	font-size: 1.56em;
@@ -181,12 +176,14 @@ li{
 	text-align:left;
 	line-height: 1.34em;
 	letter-spacing: 0em;
+	margin-left: 
+
 }
 .titulo-ação{
 	
 	margin-left: 80px;
 	color: #95989a;
-	margin-top: 40px;
+	margin-top: 50px;
 }
 .img-footer{
 	width:100%; 
@@ -204,38 +201,50 @@ li{
 
 }
 .caixa-contato{
+	position: relative;
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	justify-content: flex-start;
 	flex-direction:row;
 	flex-wrap: wrap;
 	background-color: #363636;
 	border-radius: 25px;
 	width: 30%;
-	height: 30%;
+	height: 35%;
 	opacity:0.70;
 	color:#fff;
-	
-	
-}
-
-footer div img{
-	width: 20%;
-	height:20%;
-	margin-left: 30px;
+	top:11.10%;
+	margin: 2.5%;	
 }
 
 footer div p{
-	width: 30%;
+	width: 40%;
 	position: relative;
 	left: -30%;
 	margin-left: 50%;
 	font-size: 1.30em;
+	line-height:1em;
 }
+
 footer div h1{
-	margin-left: 30%;
+	width: 45%;
+	margin-left: 18%;
+	
 }
-/* .caixa-contato .logo-facebook{
+.contato-img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0%;
+	padding: 0%;
+}
+.contato-logo{
+	width: 30%;
+	height: 30%
+	
+
+}
+/*.caixa-contato .logo-facebook{
 	display: flex;
 	justify-content:center;
 	align-items: center;
@@ -257,15 +266,14 @@ footer div h1{
 	display: flex;
 	justify-content:center;
 	align-items: center;
-
 	position: relative;
 	width: 50%;
 	left:40px;
 	top: 58px;
-}*/
+}
 
 
-./*caixa-contato .contato-titulo{
+.caixa-contato .contato-titulo{
 	position: relative;
 	left: 80px;
 	color: #fff;
@@ -283,9 +291,9 @@ footer div h1{
 	width: 30%;
 	position: relative;
 	top: 10px;
-	left: 50px;
+	left: 50px;*/
 }
-*/
+
 /*@media (max-width: 420px) {
 
 	.img01{
