@@ -231,16 +231,16 @@ footer div h1{
 	margin-left: 18%;
 	
 }
-.contato-img{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 0%;
-	padding: 0%;
+.contato-img {
+	width: 50%;
+	
+	
+
 }
 .contato-logo{
-	width: 30%;
-	height: 30%
+
+	width: 90%;
+	height: 50%;
 	
 
 }
