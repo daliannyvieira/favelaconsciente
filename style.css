@@ -32,9 +32,10 @@ ul {
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
+	list-style: none;
 }
 
-li{
+.menu-item {
 	margin: 3px;
 	display: flex;
 	align-items: center;
@@ -44,7 +45,6 @@ li{
 	background-color:#fff;
 	border-radius:50px;
 	border:1px solid #696969;
-
 }
 
 .imagem-header{
@@ -196,7 +196,7 @@ li{
 	align-items: center;
 	background:url(Assets/04.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% ;
+	background-size: cover;
 	height: 950px;
 
 }
