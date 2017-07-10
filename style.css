@@ -25,6 +25,7 @@ nav{
 	top: 4%;
 	z-index: 4;
 
+
 }
 
 ul {
@@ -35,7 +36,7 @@ ul {
 	list-style: none;
 }
 
-.menu-item {
+.menu li  {
 	margin: 3px;
 	display: flex;
 	align-items: center;
@@ -104,29 +105,33 @@ ul {
 }
 
 .ação-imagem-colonia-de-ferias{
+	
 	width:28.18%; 
-	height:30%;
-	margin: 20px;	
+	/*height:30%;*/
+	/*margin: 20px;	*/
 }
 
 .ação-imagem-oficina-verde{
+	
 	width:28.18%; 
-	height: 240px;
-	margin: 20px;
+/*	height: 240px;*/
+	/*margin: 20px;*/
 }
+.ação-imagem-reciclagem{
+	width: 28.18%; 
+	/*height: 240px;*/
+	/*margin: 20px;*/
+}
+
 .ações-imagens{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
-	flex-wrap: wrap;
-	margin-top: 175px;
+	margin-top: 100px;
 
-}
-.ação-imagem-reciclagem{
-	width:28.18%; 
-	height: 240px;
-	margin: 20px;
+
+
 }
 
 .descrição-oficina-de-reciclagem{
@@ -183,7 +188,7 @@ ul {
 	
 	margin-left: 80px;
 	color: #95989a;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 .img-footer{
 	width:100%; 
@@ -198,6 +203,7 @@ ul {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 950px;
+	margin-top: 10%;
 
 }
 .caixa-contato{
