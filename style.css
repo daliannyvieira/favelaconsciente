@@ -14,7 +14,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	background-size:  cover;
 }
 
 nav{
@@ -54,7 +54,7 @@ ul {
 }
 
 .img-crianças-main{
-	width:100%; 
+	 background-size: cover;
 	height:50%;
 }
 #sobre{
@@ -103,50 +103,49 @@ ul {
 	color: #95989a;
 	
 }
+.caixa-reciclagem .caixa-oficina-verde .caixa-colonia{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction:column;
+	text-align:center;
+	margin: 3%;
+	padding: 3%;
 
-.ação-imagem-colonia-de-ferias{
-	
-	width:28.18%; 
-	/*height:30%;*/
-	/*margin: 20px;	*/
 }
+	
 
-.ação-imagem-oficina-verde{
-	
-	width:28.18%; 
-/*	height: 240px;*/
-	/*margin: 20px;*/
-}
-.ação-imagem-reciclagem{
-	width: 28.18%; 
-	/*height: 240px;*/
-	/*margin: 20px;*/
-}
+.ação-imagem-colonia-de-ferias {width:90%;} 
+.ação-imagem-oficina-verde {width:90%;}
+.ação-imagem-reciclagem {width: 90%;}
 
 .ações-imagens{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	flex-direction: row;
-	margin-top: 100px;
+	margin:0 auto;
+	width:80%; 
+	
 
 
 
 }
 
 .descrição-oficina-de-reciclagem{
-	margin: 35px;
+	margin:0px;
 	display: flex;
 	flex-direction: row;
 	align-items: left;
 	flex-wrap: wrap;
-	width: 20%; 
+	width: 80%; 
 	color: #95989a;
 	font-family:'Source Sans Pro', sans-serif;
 	font-size: 1.56em;
 	font-style: normal;
 	line-height: 1.34em;
 	letter-spacing: 0em;
+
 }
 .descrição-oficina-verde{
 	margin:0px;
@@ -154,13 +153,12 @@ ul {
 	flex-direction: row;
 	align-items: center;
 	flex-wrap: wrap;
-	width: 20%; 
+	/*width: 20%; 
 	left: -88px;
-	top: -23px;
+	top: -23px;*/
 	color: #95989a;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.56em;
-	color: #95989a;
 	font-style: normal;
 	text-align:left;
 	line-height: 1.34em;
@@ -172,16 +170,14 @@ ul {
 	flex-direction: row;
 	align-items: center;
 	flex-wrap: wrap;
-	width: 20%; 
-	color: #95989a;
+	width: 50%; 
 	font-family:'Source Sans Pro', sans-serif;
 	font-size: 1.56em;
-	color: #95989a;
 	font-style: normal;
 	text-align:left;
 	line-height: 1.34em;
 	letter-spacing: 0em;
-	margin-left: 
+	color: #95989a;
 
 }
 .titulo-ação{
@@ -247,35 +243,6 @@ footer div h1{
 
 	width: 90%;
 	height: 50%;
-	
-
-}
-/*.caixa-contato .logo-facebook{
-	display: flex;
-	justify-content:center;
-	align-items: center;
-	position: relative;
-	width: 50%;
-	left: 40px;
-	top:10px;
-}
-.caixa-contato .logo-youtube{
-	display: flex;
-	justify-content:center;
-	align-items: center;
-	position: relative;
-	width: 50%;
-	left:90%;
-	top:-63px;
-}
-.caixa-contato .logo-instagram{
-	display: flex;
-	justify-content:center;
-	align-items: center;
-	position: relative;
-	width: 50%;
-	left:40px;
-	top: 58px;
 }
 
 
@@ -297,33 +264,57 @@ footer div h1{
 	width: 30%;
 	position: relative;
 	top: 10px;
-	left: 50px;*/
+	left: 50px;
 }
 
-/*@media (max-width: 420px) {
+@media (max-width: 620px){
+	.ações-imagens{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin:0 auto;
+		
+		
+	}
+	 .ações-imagens img {
+	  
+	  	margin: 0 auto;
+		width: 100%;
+	}
+	.caixa-sobre {
+		margin:0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 80%;
+		height: 60%;
 
-	.img01{
-		margin-left: 48%;
+
+	}
+	.sobre-descrição{
+		width: 60%;
+		font-size;: 0.88em;
+
+	}
+	 .menu li{
+	
+		flex-direction:row;
+		width: 95%;
+		height: 60%;
+	}
+	
+	
+	.caixa-contato{
+		width: 80%;
+	}
+	.id #contato{
+		width: 100%;
 	}
 
-	.img02{
-		margin-left: -80%;
-		width: 310%;
-	}
-
-	.conteiner-sobre{
-		margin-left: -25%;
-		width: 83%;
-		height: 90%;
-		margin-top: -110%;
-	}
-
-	.text-sobre{
-		font-size: 2.0em;
-	}
-
-	nav{
-		margin-left: -15%;
-	}
 }
-*/
+
+
+	
+	
+
