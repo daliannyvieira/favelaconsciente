@@ -61,7 +61,7 @@ ul {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	background:url(Assets/02.jpg);
+	background:url(Assets/02.jpg) center center;
 	background-repeat: no-repeat;
 	background-size: 100% ;
 	height: 950px;
@@ -185,7 +185,7 @@ ul {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	background:url(Assets/04.jpg);
+	background:url(Assets/04.jpg) center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 957px;
@@ -193,19 +193,19 @@ ul {
 
 }
 .caixa-contato{
-	position: relative;
+	/*position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	flex-direction:row;
-	flex-wrap: wrap;
+	flex-wrap: wrap;*/
 	background-color: #363636;
 	border-radius: 25px;
 	width: 25.5%;
 	height: 35%;
 	opacity:0.70;
 	color:#fff;
-	top:11.10%;
+	top:10%;
 	margin: 2.5%;	
 }
 
@@ -269,20 +269,21 @@ footer div h1{
 		
 	}
 	 .ações-imagens img {
-	  
+	  	
 	  	margin: 0 auto;
 		width: 100%;
 	}
 	.caixa-sobre {
 		margin:0 auto;
 		display: flex;
+		flex-direction: center;
 		justify-content: center;
 		align-items: center;
 		width: 80%;
 		height: 60%;
-
-
 	}
+
+	
 	.sobre-descrição{
 		width: 60%;
 		font-size;: 0.88em;
@@ -291,18 +292,28 @@ footer div h1{
 	 .menu li{
 	
 		flex-direction:row;
-		width: 95%;
+		width: 100%;
 		height: 60%;
 	}
 	
 	
 	.caixa-contato{
-		width: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		flex-direction: center;		
+		width: 70%;
+		
 	}
-	.id #contato{
-		background:url(Assets/04.jpg)
-		width: 100%;
+	.contato-img{
+		width: 65%;
+		padding: 3%;
 	}
+    
+	
+	 
+	
 
 }
 
