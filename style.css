@@ -78,7 +78,7 @@ ul {
 	background-color: #fff;
 	width: 30%;
 	height: 45%;
-	margin-top: -20%;
+	margin-top: -10%;
 	margin-right: 3%;
 	border-radius: 20px;
 
@@ -87,19 +87,17 @@ ul {
 	display: flex;
 	align-items:center;
 	justify-content: center;
-	width: 330px;
+	width: 85%;
 	color: #95989a;
 	font-style: normal;
 	text-align: left;
 	line-height: 1.1em;
 	
-
-	
 }
 
 .sobre-titulo{
-	display: flex;
-	text-align: left;
+	
+	width: 85%;
 	color: #95989a;
 	
 }
@@ -109,8 +107,7 @@ ul {
 	justify-content: center;
 	flex-direction:column;
 	text-align:center;
-	margin: 3%;
-	padding: 3%;
+	
 
 }
 	
@@ -126,10 +123,6 @@ ul {
 	flex-direction: row;
 	margin:0 auto;
 	width:80%; 
-	
-
-
-
 }
 
 .descrição-oficina-de-reciclagem{
@@ -153,9 +146,6 @@ ul {
 	flex-direction: row;
 	align-items: center;
 	flex-wrap: wrap;
-	/*width: 20%; 
-	left: -88px;
-	top: -23px;*/
 	color: #95989a;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.56em;
@@ -170,7 +160,7 @@ ul {
 	flex-direction: row;
 	align-items: center;
 	flex-wrap: wrap;
-	width: 50%; 
+	width: 70%; 
 	font-family:'Source Sans Pro', sans-serif;
 	font-size: 1.56em;
 	font-style: normal;
@@ -182,7 +172,7 @@ ul {
 }
 .titulo-ação{
 	
-	margin-left: 80px;
+	margin: 10%;
 	color: #95989a;
 	margin-top: 30px;
 }
@@ -198,7 +188,7 @@ ul {
 	background:url(Assets/04.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 950px;
+	height: 957px;
 	margin-top: 10%;
 
 }
@@ -211,7 +201,7 @@ ul {
 	flex-wrap: wrap;
 	background-color: #363636;
 	border-radius: 25px;
-	width: 30%;
+	width: 25.5%;
 	height: 35%;
 	opacity:0.70;
 	color:#fff;
@@ -234,12 +224,13 @@ footer div h1{
 	
 }
 .contato-img {
-	width: 50%;
+	width: 60%;
 	
 	
 
 }
 .contato-logo{
+
 
 	width: 90%;
 	height: 50%;
@@ -309,6 +300,7 @@ footer div h1{
 		width: 80%;
 	}
 	.id #contato{
+		background:url(Assets/04.jpg)
 		width: 100%;
 	}
 
